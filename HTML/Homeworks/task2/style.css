@@ -1,0 +1,19 @@
+.black {
+    color: black;
+    
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
+li {
+    display: inline;
+    padding-right: 5px;
+    background-color:rgb(197, 197, 197) ;
+    font-size: 50px;  
+    padding: 5px;
+}
+body {
+    background-color: rgb(162, 162, 162);
+}
+

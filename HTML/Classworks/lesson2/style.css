@@ -1,0 +1,37 @@
+.list_fruits {
+    list-style-type:none;
+    padding: 0px;
+}
+.list_first_level {
+    padding: 0px;
+    background-color: rgba(170, 170, 170, 0.297);
+}
+/* .list_fruits span {
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    border: 1px solid rgb(21, 151, 207);
+    background-color: rgba(0, 0, 0, 0.099);
+    border-radius: 50%;
+} */
+.list_fruits li {
+    margin-bottom: 2px ;
+}
+
+ul {
+    list-style: none;
+}
+body {
+    font-family: "Manrope", sans-serif;;
+    font-size: 14px;
+}
+
+.list_fruits ::before {
+    content: '\25C8';
+}
+
+.list_fruits ::after {
+    content: '\2716';
+}
+

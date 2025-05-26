@@ -1,0 +1,56 @@
+h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #363636;
+
+}
+
+ul, h2, p {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.icon-image{
+    width:15px;
+}
+
+.list-item{
+    width: 30%;
+}
+
+.list-item > img {
+    width: 100%;
+}
+
+.list-item > div > h2 {
+    font-weight: 400;
+}
+
+.article{
+    padding: 20px;
+}
+.article > p{
+    padding-bottom: 20px;
+}
+.article > h2{
+    padding-bottom: 20px;
+}
